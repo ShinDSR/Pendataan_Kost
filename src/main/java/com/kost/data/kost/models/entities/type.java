@@ -16,7 +16,7 @@ public class type implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Long id;
+    public Long id_type;
 
     public  char nama_type;
 
