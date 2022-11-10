@@ -27,17 +27,17 @@ public class type implements Serializable {
     }
 
     public type(Long id, char nama_type, char luas) {
-        this.id = id;
+        this.id_type = id;
         this.nama_type = nama_type;
         this.luas = luas;
     }
 
     public Long getId() {
-        return id;
+        return id_type;
     }
 
     public void setId(Long id) {
-        this.id = id;
+        this.id_type = id;
     }
 
     public char getNama_type() {
